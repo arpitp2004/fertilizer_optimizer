@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 # Set your API key here
-api_key = 'write your key here'
+api_key = 'AIzaSyAh4OPfVTyL1gCPLbh3i-sesYS3HLSww88'
 
 # Initialize the Gemini model with your API key
 genai.configure(api_key=api_key)
